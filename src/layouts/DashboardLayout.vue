@@ -129,7 +129,7 @@ export default {
       window.addEventListener('scroll', function () {
         const scrollTop =
           window.pageYOffset || document.documentElement.scrollTop
-        if (scrollTop > lastScrollTop) {
+        if (scrollTop > lastScrollTop && !scrollTop <= 0) {
           navbar.style.top = '-90px'
         } else {
           navbar.style.top = '0px'

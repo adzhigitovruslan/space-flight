@@ -105,7 +105,7 @@ export default {
   color: #0f0f0f;
   padding: 20px;
   border: 0.5px solid #eeaeca;
-  margin: 40px 0 0 0;
+  margin: 40px 0 40px 0;
   border-radius: 10px;
   box-shadow: 0.2rem 0.2rem 0.5rem #eeaeca;
   background: linear-gradient(130deg, #eeaeca, #308ee2);
